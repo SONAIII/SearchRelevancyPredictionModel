@@ -32,7 +32,7 @@ A step-by-step series of examples that tell you how to get a development environ
 
    ```sh
    cd SearchRelevancyPredictionModel
-   docker build -t SearchRelevancyPredictionModel .
+   docker build -t search_rel_model .
    ```
 
 
@@ -41,7 +41,7 @@ A step-by-step series of examples that tell you how to get a development environ
    After the image is built, you can run it:
 
    ```sh
-   docker run -p 4000:80 SearchRelevancyPredictionModel
+   docker run -p 4000:80 search_rel_model
    ```
 
    This command runs the Docker container and maps port 80 inside the container to port 4000 on your host machine.
